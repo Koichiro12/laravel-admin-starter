@@ -1,3 +1,3 @@
-## Aplikasi Manajemen Kos berbasis website menggunakan framework Laravel
+## Laravel Admin Project Starter Kit
 
-Aplikasi ini dibuat untuk memudahan dalam pengelolaan, pembayaran dan pengajuan usulan atau laporan untuk rumah kost.
+Web App ini dibuat untuk mempercepat pembuatan aplikasi back Office
