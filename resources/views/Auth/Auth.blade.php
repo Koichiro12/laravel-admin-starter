@@ -11,6 +11,16 @@
                 @csrf
                 @method('POST')
                 <h3 class="text-center">Silahkan Login disini </h3>
+                @if (session()->has('error'))
+                <div class="alert alert-danger">
+                    {{ session('error') }}
+                </div>
+            @endif
+            @if (session()->has('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
                 <div class="login-form">
                     <div class="form-group">
                         <label for="email"><b>Email </b></label>
